@@ -74,6 +74,18 @@ h6{
 	margin-bottom: 12px;
 	text-transform: uppercase;
 }
+p {
+	font:18px/24px 'adobe-caslon-pro', serif;
+	color: #fff;
+	padding: 7px 0;
+}
+a {
+	text-decoration: none;
+}
+small {
+	font: 12px 'adobe-caslon-pro', serif;
+	color: #fff;
+}
 ul li {
 	list-style-type: none;
 	padding-left: 25px;
@@ -104,14 +116,7 @@ input[type='text'], input[type='email']{
 	border-radius: 3px;
 	display: block;
 }
-p {
-	font:18px/24px 'adobe-caslon-pro', serif;
-	color: #fff;
-	padding: 7px 0;
-}
-a {
-	text-decoration: none;
-}
+
 .button {
 	width:140px;
 	height: 40px;
@@ -335,10 +340,7 @@ footer .primary a {
 	font-size: 10px;
 	line-height: 65px;
 }
-small {
-	font: 12px 'adobe-caslon-pro', serif;
-	color: #fff;
-}
+
 /*Home*/
 .hero {
 	z-index: 1000;
@@ -391,8 +393,7 @@ small {
 	margin-top: -28px;
 }
 #hero .owl-nav{
-/*	font:bold 12px 'futura-pt', arial, sans-serif;
-*/	color: #fff;
+	color: #fff;
 }
 #hero .owl-nav .owl-prev, #hero .owl-nav .owl-next{
     position: absolute;
@@ -946,7 +947,6 @@ _______________*/
   -moz-osx-font-smoothing: grayscale;
   color: #fff;
 }
-
 [class^="icon-"]:before,
 [class*=" icon-"]:before {
   font-family: "kathy-izard" !important;
@@ -959,7 +959,6 @@ _______________*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 .icon-facebook:before {
   content: "\61";
 }
