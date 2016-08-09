@@ -2,6 +2,7 @@
 Columnn Styles 
 ******/
 
+
 .wrap {
 	width: 100%;
 }
@@ -25,6 +26,7 @@ Columnn Styles
 
 .quote-block p {
 		color: #9AB0C3;
+		font-family: 'futura-pt', verdana, sans-serif;
 	}
 
 .quote-block h6 {
@@ -36,8 +38,7 @@ Columnn Styles
 
 
 blockquote {
-	margin: 1.5em 10px;
-	padding: 0.5em 10px;
+	display: inline;
 	quotes: "\201C""\201C""\201C""201C";
 
 }
@@ -45,14 +46,11 @@ blockquote {
 blockquote:before {
 	color: #62B5D8;
 	content: open-quote;
+	font-family: 'futura-pt', verdana, sans-serif;
 	font-size: 4em;
 	line-height: 0.1em;
 	margin-right: 0.25em;
 	vertical-align: -0.4em;
-}
-
-blockquote {
-	display: inline;
 }
 
 /* PRE-ORDER BOX */
@@ -76,7 +74,6 @@ blockquote {
 .container-box {
 	margin: 0 auto;
 	text-align: left;
-	height: 300px;
 	padding: 15px;
 }
 
@@ -125,8 +122,11 @@ blockquote {
 
 .icon-container h6 {
 	position: absolute;
-	bottom: 15px;
-	left: 125px;
+	text-align: center;
+    right: 5px;
+    left: 20px;
+    margin: auto;
+	top: 105px;
 	color: #fff;	
 }
 
@@ -136,6 +136,7 @@ blockquote {
 /* READERS GUIDE */
 
 .readersguide {
+	position: relative;
 	background-color: #BCD8D7;
 	width: calc(100% - 30px);
 	height: 85px;
@@ -143,6 +144,7 @@ blockquote {
 }	
 
 .readersguide h6 {
+	line-height: 80px;
 	color: #3F7398;
 }
 
@@ -153,12 +155,17 @@ blockquote {
 }
 
 
-.icon-box::before {
-	content: url(..assets/img/bookicon.png);
+.readersguide::before {
+	content: url(../img/bookicon.png);
+	position: absolute;
+	bottom: 0;
 }
 
-.icon-box::after {
-	content: url(..assets/img/arrowright.png);
+.readersguide::after {
+	content: url(../img/arrowright.png);
+	position: absolute;
+	bottom: 0.1px;
+	right: 5px;
 	
 }
 

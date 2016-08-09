@@ -8,7 +8,7 @@
 
 	.col2 {
 		float: right;
-		width: 30%;
+		width: 40%;
 	}
 
 	.col1,
@@ -24,19 +24,22 @@
 		padding-bottom: 10px;
 	}
 
+	.thsh .hero .right {
+    	max-width: none;
+    	width: calc(40% - 20px);
+}
+
 /* PRE-ORDER BOX */
 
 	.pre-order {
 		background-color: #3F7398;
-		width: 250px;
-		height: 345px;
+		
 	}
 	.order {
 		display: block;
 		margin: 0 auto;
 		color: #61B5D7;
 		width: 180px;
-		height: 60px;
 		border-style: none;
 		line-height: 4em;
 	}
@@ -58,28 +61,33 @@
 
 	.container-box {
 		text-align: left;
-		width: 250px;
-		height: 300px;
 	}
 
 /* AUTHOR VIDEO BOX */
 
-	.video {
-		box-sizing: none;
-		width: 250px;
-		height: 150px;
 	
-	}
 
 /* READERS GUIDE */
 
 	.readersguide {
 		background-color: #BCD8D7;
-		width: 250px;
 		height: 83px;
-		margin-top: 15px;
+		margin-top: 35px;
 
-	}
+}
+
+	.readersguide::before {
+	content: url(../img/bookicon.png);
+	position: absolute;
+	bottom: 0;
+}
+
+	.readersguide::after {
+		content: url(../img/arrowright.png);
+		position: absolute;
+		bottom: 0.1px;
+	
+}
 
 
 }
