@@ -1,33 +1,11 @@
 /****** 
-Columnn Styles
+Columnn Styles 
 ******/
+
 
 .wrap {
 	width: 100%;
 }
-
-.quote-block p {
-	color: #9AB0C3;
-}
-
-.pre-order {
-	background-color: #3F7398;
-	box-sizing: border-box;
-	width: 100%;
-	padding-bottom: 15px;
-}
-
-.readersguide {
-	background-color: #BCD8D7;
-	box-sizing: border-box;
-	width: 100%;
-	padding-bottom: 15px;
-}
-
-
-.video img {
-	width: 100%;
-}	
 
 .col1,
 .col2 {
@@ -35,10 +13,165 @@ Columnn Styles
 	width: 100%;
 }
 
-.quote-block:before {
-		content: "";
-		display: block;
-		width: 40px;
-		height: 40px;
-		background-color: #BCD8D7; 
+/* QUOTES COLUMN */
+
+.quote-block .blockquote {
+	color: #9AB0C3;
 }
+
+.quote-block {
+	line-height: 1px;
+	padding-bottom: 1px;
+}
+
+.quote-block p {
+		color: #9AB0C3;
+		font-family: 'futura-pt', verdana, sans-serif;
+	}
+
+.quote-block h6 {
+	line-height: 2px;
+	margin-bottom: 32px;
+	font:12px 'futura-pt', verdana, sans-serif;
+	color: #9DCCE2;
+}
+
+
+blockquote {
+	display: inline;
+	quotes: "\201C""\201C""\201C""201C";
+
+}
+
+blockquote:before {
+	color: #62B5D8;
+	content: open-quote;
+	font-family: 'futura-pt', verdana, sans-serif;
+	font-size: 4em;
+	line-height: 0.1em;
+	margin-right: 0.25em;
+	vertical-align: -0.4em;
+}
+
+/* PRE-ORDER BOX */
+
+.pre-order {
+	background-color: #3F7398;
+	box-sizing: border-box;
+	-webkit-box;
+	width: calc(100% - 30px);
+	width: -webkit-calc(100);
+	margin: 15px;
+
+}
+
+.pre-order .order {
+	color: #fff;
+	background-color: #61B5D7;
+
+}
+
+.container-box {
+	margin: 0 auto;
+	text-align: left;
+	padding: 15px;
+}
+
+/*pre-order button*/
+
+.order {
+	display: block;
+	margin: 0 auto;
+	color: #61B5D7;
+	width: 50%;
+	height: 60px;
+	border-style: none;
+	line-height: 4em;
+}
+
+.headline {
+	font-family:'futura-pt', serif;
+	font-size: 28px;
+	margin: 15px;
+	color: #B5D7DA;
+
+}
+
+.earlyorder {
+	font: 18px/24px'adobe-caslon-pro', verdana, sans-serif;
+	color: #fff;
+	line-height: 20px;
+	
+}
+
+
+/* AUTHOR VIDEO BOX */
+
+.video {
+	position: relative;
+	width: calc(100% - 30px);
+	height: 175px;
+	margin: 15px;
+	
+}
+
+.videoimage {
+	display: block;
+	margin: 0 auto;
+}
+
+.icon-container h6 {
+	position: absolute;
+	text-align: center;
+    right: 5px;
+    left: 20px;
+    margin: auto;
+	top: 105px;
+	color: #fff;	
+}
+
+
+
+
+/* READERS GUIDE */
+
+.readersguide {
+	position: relative;
+	background-color: #BCD8D7;
+	width: calc(100% - 30px);
+	height: 85px;
+	margin: 15px;
+}	
+
+.readersguide h6 {
+	line-height: 80px;
+	color: #3F7398;
+}
+
+.icon-box {
+	text-align: center;
+	width: 50%px;
+	height: 40px;
+}
+
+
+.readersguide::before {
+	content: url(../img/bookicon.png);
+	position: absolute;
+	bottom: 0;
+}
+
+.readersguide::after {
+	content: url(../img/arrowright.png);
+	position: absolute;
+	bottom: 0.1px;
+	right: 5px;
+	
+}
+
+
+
+
+
+
+

@@ -1,5 +1,20 @@
 @media screen and (min-width: 768px){
 
+	.col1 {
+		float: left;
+		width: 60%;
+		padding-right: 40px;
+	}
+
+	.col2 {
+		float: right;
+		width: 40%;
+	}
+
+	.col1,
+	.col2 {
+		margin-top: 40px;
+	}
 
 	.quote-block p {
 		color: #9AB0C3;
@@ -9,51 +24,70 @@
 		padding-bottom: 10px;
 	}
 
+	.thsh .hero .right {
+    	max-width: none;
+    	width: calc(40% - 20px);
+}
+
+/* PRE-ORDER BOX */
+
 	.pre-order {
 		background-color: #3F7398;
-		box-sizing: border-box;
-		width: 250px;
-		height: 345px;
+		
 	}
+	.order {
+		display: block;
+		margin: 0 auto;
+		color: #61B5D7;
+		width: 180px;
+		border-style: none;
+		line-height: 4em;
+	}
+
+	.headline {
+		font-family:'futura-pt', serif;
+		font-size: 18px;
+		color: #B5D7DA;
+	}
+
+	.earlyorder {
+		font-family:'futura-pt', verdana, sans-serif;
+		font-size: 16px;
+		color: #fff;
+		line-height: 20px;
+		padding-bottom: 3px;
+		margin: 15px;
+	}
+
+	.container-box {
+		text-align: left;
+	}
+
+/* AUTHOR VIDEO BOX */
+
+	
+
+/* READERS GUIDE */
 
 	.readersguide {
 		background-color: #BCD8D7;
-		width: 250px;
 		height: 83px;
-		margin-top: 15px;
+		margin-top: 35px;
 
-	}
+}
 
-	.video {
-		box-sizing: none;
-		width: 250px;
-		height: 150px;
+	.readersguide::before {
+	content: url(../img/bookicon.png);
+	position: absolute;
+	bottom: 0;
+}
+
+	.readersguide::after {
+		content: url(../img/arrowright.png);
+		position: absolute;
+		bottom: 0.1px;
 	
-	}
+}
 
-	.col1 {
-		float: left;
-		width: 75%;
-		padding-right: 40px;
-	}
-
-	.col2 {
-		float: right;
-		width: 25%;
-	}
-
-	.col1,
-	.col2 {
-		margin-top: 40px;
-	}
-
-	.quote-block:before {
-		content: "";
-		display: block;
-		width: 40px;
-		height: 40px;
-		background-color: #BCD8D7; 
-
-	}
 
 }
