@@ -35,18 +35,22 @@
 		text-decoration: none;
 		background: #71b4d5;
 		cursor: pointer;
-		display: inline-block;
-		margin-left: 5px;
+		display: block;
+	    margin-left: 5px;
+	    float: left;
+	    margin-top: 5px;
 	}
+
 	.secondary .left {
 		position: absolute;
 	    top: 50%;
 	    transform: translateY(-50%);
 	    -webkit-transform: translateY(-50%);
 	    -moz-transform: translateY(-50%);
+	    bottom: auto;
 	}
 	
-	.secondary .right a {
+	.secondary .right a, .secondary .button {
 		font: bold 10px/37px 'futura-pt', verdana, sans-serif;
 		color: #999;
 		display: inline-block;
@@ -57,33 +61,35 @@
 		margin-left: 0;
 		line-height: 40px;
 	}
-	.secondary .right a:hover {
+	.secondary .right a:hover, .secondary .button:hover {
 		 color:#71b4d5;
 	}
-	.secondary .right a.button {
+	.secondary .button {
 		padding-right: 0;
+		margin-left: 5px;
 		width: 140px;
 		line-height: 37px;
 		border-color: #999;
+		cursor: pointer;
 	}
-	.secondary .right a.button:hover {
+	.secondary .button:hover {
 		border:1px solid #71b4d5;
 		color: #71b4d5;
 	}
-	.home {
-		font: 21px 'adobe-caslon-pro', serif;
-		text-transform: uppercase;
-		color:#71b4d5;
-		width: 300px;
-		margin:auto;
-		text-align: center;
+
+	.home.tablet img{
+		width: 150px;
 		position: absolute;
-	    left: 0;
+		left: 0;
 	    right: 0;
-	    top: 53%;
+		margin:auto;
+		top: 50%;
 	    transform: translateY(-50%);
 	    -webkit-transform: translateY(-50%);
 	    -moz-transform: translateY(-50%);
+	}
+	.scroll .home.tablet img{
+		width:120px;
 	}
 	.primary {
 		height: 90px;
@@ -254,7 +260,7 @@
 	.about .hero {
 		margin-top: 0px;
 	}
-	.about .words h3 {
+	.about .words h3, .contact .words h3 {
 		padding: 25px 0 10px;
 		font-size: 28px;
 	}
@@ -269,6 +275,20 @@
 	    margin-top: 150px;
 	    margin-right: 20px;
 	 }
+	 /*CONTACT*/
+	 .feeds .wrap {
+	 	display: table;
+	 }
+	 .t-timeline, .i-timeline {
+		width: 50%;
+		display: table-cell
+	}
+	 .i-timeline {
+	 	padding: 30px 75px;
+	}
+	.feeds .wrap, .t-timeline, .i-timeline {
+		height: 360px;
+	}
 }
 @media (min-width: 820px){
 	.popup{

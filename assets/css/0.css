@@ -339,13 +339,21 @@ footer .primary a {
 	color: #fff;
 	font-size: 10px;
 	line-height: 65px;
+
 }
 
 /*Home*/
+.home img {
+	width: 30px;
+	left:15px;
+	position: absolute;
+	top:50%;
+	transform: translateY(-50%);
+}
 .hero {
 	z-index: 1000;
 	margin-top: 0px;
-	overflow: hidden
+	overflow: hidden;
 }
 .hero .wrap{
 	background: url('../img/header.png') no-repeat;
@@ -424,9 +432,9 @@ footer .primary a {
 .hero .wrap:after {
 	content: '';
 	display: block;
-	width: calc(100% - 30px);
-	width: -webkit-calc(100% - 30px);
-	width: -moz-calc(100% - 30px);
+	width: calc(100% - 29px);
+	width: -webkit-calc(100% - 29px);
+	width: -moz-calc(100% - 29px);
 	height: calc(100% - 29px);
 	height: -webkit-calc(100% - 29px);
 	height: -moz-calc(100% - 29px);
@@ -713,6 +721,12 @@ footer .primary a {
 	text-align: center;
 	display: block;
     margin: 20px auto 0;
+    z-index: 10;
+    position: relative;
+}
+.whisper .button:hover {
+	color: gray;
+	background: #fff;
 }
 .buy .button {
 	margin: 20px auto 0;
@@ -798,26 +812,26 @@ _________________________*/
 	position: relative;
 	z-index: 1;
 }
-.about .words h3 {
+.about .words h3, .contact .words h3 {
 	font-size: 14px;
 	padding: 15px 0 0;
 }
 .about .hero .wrap{
 	background:url('../img/mom_dad.png') no-repeat center;
 }
-.about .words {
+.about .words, .contact .words {
 	background: rgba(255,255,255,0.8);
 	position: absolute;
 	bottom:14px;
 	left:15px;
-	width: calc(100% - 30px);
-	width: -webkit-calc(100% - 30px);
-	width: -moz-calc(100% - 30px);
+	width: calc(100% - 29px);
+	width: -webkit-calc(100% - 29px);
+	width: -moz-calc(100% - 29px);
 }
-.about h3 {
+.about h3, .contact h3 {
 	text-align: center;
 }
-.about .bio h3 {
+.about .bio h3, .contact .bio h3 {
 	text-align: left;
 	margin-bottom: 5px;
 }
@@ -825,7 +839,7 @@ _________________________*/
 	margin-bottom: 7px;
 }
 
-.about p, .about ul li {
+.about p, .about ul li, .contact p, .contact ul li {
 	color: #666666;
 	font:18px 'adobe-caslon-pro', serif;
 }
@@ -913,6 +927,62 @@ _______________*/
 }
 .thsh .hero .right {
 	margin: auto;
+}
+/* Contact */
+.contact .hero .wrap{
+	background:url('../img/contact-kathyizard.png') no-repeat center;
+}
+.feeds .wrap {
+	padding:0;
+}
+#twitter-widget-0 {
+	max-height: 228px !important;
+	overflow: hidden;
+}
+.t-timeline {
+	background:#487497;
+	border:15px solid #7697b1;
+	width: 100%;
+	padding:50px 30px;
+	float:left;
+}
+.i-timeline {
+	background: #bbd6d9;
+	border:15px solid #cce0e3;
+	padding:50px 30px;
+	float:left;
+	width: 100%;
+}
+.i-timeline h6 {
+	text-align: center;
+	margin-top:18px;
+	line-height: 12px;
+}
+.i-timeline h6 a{
+	color:#487497;
+	position: relative;
+}
+.contaienr .i-timeline h6 a:hover, .container .t-timeline h6 a:hover{
+	text-decoration: underline;
+}
+.t-timeline h6 {
+	padding-left: 10px;
+	margin:0;
+	line-height: 12px;
+
+}
+.container .t-timeline h6 a, .container .i-timeline h6 a {
+	color: #71b4d5;
+	position: relative;
+	text-decoration: none;
+
+}
+.t-timeline h6 a:before, .i-timeline h6 a:before {
+	position: absolute;
+	right:-30px;
+	font-weight: bold !important;
+	font-size: 16px;
+	top: 0;
 }
 /*Fonts*/
 @charset "UTF-8";

@@ -94,4 +94,13 @@
 	.thsh .hero .right {
 		margin:0;
 	}
+	.contact .hero .wrap {
+		height: 340px;
+	}
+	.feeds .wrap, .t-timeline, .i-timeline {
+		height: 450px;
+	}
+	.t-timeline h6 {
+		padding-top: 60px;
+	}
 }
