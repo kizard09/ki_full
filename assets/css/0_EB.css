@@ -16,7 +16,7 @@ Columnn Styles
 /* QUOTES COLUMN */
 
 .quote-block .blockquote {
-	color: #9AB0C3;
+	
 }
 
 .quote-block {
@@ -25,7 +25,8 @@ Columnn Styles
 }
 
 .quote-block p {
-		color: #9AB0C3;
+		color: #407499;
+		line-spacing: .2px;
 		font-family: 'futura-pt', verdana, sans-serif;
 	}
 
@@ -34,6 +35,7 @@ Columnn Styles
 	margin-bottom: 32px;
 	font:12px 'futura-pt', verdana, sans-serif;
 	color: #9DCCE2;
+	font-weight: bold;
 }
 
 
@@ -44,10 +46,10 @@ blockquote {
 }
 
 blockquote:before {
-	color: #62B5D8;
+	color: #61B5D7;
 	content: open-quote;
 	font-family: 'futura-pt', verdana, sans-serif;
-	font-size: 4em;
+	font-size: 6em;
 	line-height: 0.1em;
 	margin-right: 0.25em;
 	vertical-align: -0.4em;
@@ -72,7 +74,7 @@ blockquote:before {
 }
 
 .container-box {
-	margin: 0 auto;
+	margin: 25px;
 	text-align: left;
 	padding: 15px;
 }
@@ -100,8 +102,7 @@ blockquote:before {
 .earlyorder {
 	font: 18px/24px'adobe-caslon-pro', verdana, sans-serif;
 	color: #fff;
-	line-height: 20px;
-	
+
 }
 
 
