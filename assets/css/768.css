@@ -5,9 +5,6 @@
 	.tablet {
 		display: block;
 	}
-/*	.wrap {
-		padding:0;
-	}*/
 	.nav {
 		padding-top: 0;
 		position: static;
@@ -16,19 +13,21 @@
 		height: auto;
 	}
 	.secondary {
-		height: 120px;
+		height: 140px;
 		position: static;
 	}
 	.secondary .left, .secondary .right {
 	    position: static;
 	    width: auto;
 	}
-
 	.secondary .wrap {
-		padding: 40px 0;
+		padding: 52px 0;
 		border-bottom: 1px solid #d9d9d9;
 	}
-	.social a {
+	.secondary .social a:first-of-type {
+		margin-left: 0;
+	}
+	.social a:not(.button) {
 		width: 30px;
 		height: 30px;
 		border-radius: 50%;
@@ -36,41 +35,44 @@
 		background: #71b4d5;
 		cursor: pointer;
 		display: block;
-	    margin-left: 5px;
+	    margin-left: 10px;
 	    float: left;
 	    margin-top: 5px;
 	}
 
-	.secondary .left {
+/*	.secondary .left {
 		position: absolute;
 	    top: 50%;
 	    transform: translateY(-50%);
 	    -webkit-transform: translateY(-50%);
 	    -moz-transform: translateY(-50%);
 	    bottom: auto;
-	}
+	}*/
 	
 	.secondary .right a, .secondary .button {
 		font: bold 10px/37px 'futura-pt', verdana, sans-serif;
 		color: #999;
 		display: inline-block;
-		padding-right: 22px;
+		padding-left: 22px;
 		text-transform: uppercase;
 		float: none;
 		width: auto;
 		margin-left: 0;
 		line-height: 40px;
 	}
-	.secondary .right a:hover, .secondary .button:hover {
+
+	.secondary .right a:hover {
 		 color:#71b4d5;
 	}
 	.secondary .button {
 		padding-right: 0;
+		margin-left: 25px;
 		margin-left: 5px;
 		width: 140px;
 		line-height: 37px;
 		border-color: #999;
 		cursor: pointer;
+		padding-left: 0
 	}
 	.secondary .button:hover {
 		border:1px solid #71b4d5;
@@ -95,12 +97,14 @@
 		height: 90px;
 	}
 	.primary .wrap {
-		max-width: 920px;
+		max-width: 800px;
 		margin: auto;
 		display: table;
+		padding: 0;
 	}
 	.primary a {
 		display: table-cell;
+		letter-spacing: 1px;
 		text-align: center;
 		color: #487497;
 		width: 20%;
@@ -128,9 +132,9 @@
 	nav.scroll .secondary .wrap{
 		padding:20px 0;
 	}
-	.hero .right{
+	/*.hero .right{
 		max-width: 290px;
-	}
+	}*/
 	.hero .wrap {
 		height: 350px;
 		background-size: 100% 400px;

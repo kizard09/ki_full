@@ -3,12 +3,24 @@ $(function(){
 		e.preventDefault();
 		$('.popup').addClass('open');
 	});
-	// $('.pop-let').on('click', function(e){
-	// 	e.preventDefault();
-	// 	$(this).parent().find('.popup').addClass('open');
-	// });
+	$('.pop-let').on('click', function(e){
+		e.preventDefault();
+		$(this).parent().find('.popup').addClass('open');
+	});
 	$('.popup span').on('click', function(){
 		$('.popup').removeClass('open');
+	});
+	$('a[href*="#"]:not([href="#"])').click(function() {
+	    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+	      	var target = $(this.hash);
+	      	target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+	      	if (target.length) {
+		        $('html, body').animate({
+		          scrollTop: target.offset().top-230
+		        }, 1000);
+		        return false;
+		    }
+		}
 	});
 	$('#menu').click(function(){
 		$(this).toggleClass('open');
