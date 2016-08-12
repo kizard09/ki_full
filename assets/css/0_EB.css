@@ -67,7 +67,8 @@ blockquote:before {
 
 }
 
-.pre-order .order {
+.pre-order .order,
+.solomon-intro .order {
 	color: #fff;
 	background-color: #61B5D7;
 
@@ -79,13 +80,13 @@ blockquote:before {
 	padding: 15px;
 }
 
+
 /*pre-order button*/
 
 .order {
 	display: block;
 	margin: 0 auto;
 	color: #61B5D7;
-	width: 50%;
 	height: 60px;
 	border-style: none;
 	line-height: 4em;
@@ -169,6 +170,46 @@ blockquote:before {
 	right: 5px;
 	
 }
+
+/*******************
+	MOORE PLACE
+********************/
+
+.videoSol {
+	width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.solomon-intro {
+	background-color: #3F7398;
+	box-sizing: border-box;
+	-webkit-box;
+	width: calc(100% - 30px);
+	width: -webkit-calc(100);
+	margin: 15px;
+
+}
+
+.container-moore {
+	margin: 25px;
+	text-align: left;
+	padding: 15px;
+}
+
+.container-moore h6 {
+	line-height: 2px;
+    margin-bottom: 32px;
+    font: 12px 'futura-pt', verdana, sans-serif;
+    color: #9DCCE2;
+    font-weight: bold;
+}
+
+.container-moore .headline {
+	margin: 0;
+}
+
+
 
 
 
