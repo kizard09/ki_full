@@ -94,6 +94,14 @@
 	.thsh .hero .right {
 		margin:0;
 	}
+	.col1{
+		width: calc(100% - 260px);
+		width: -webkit-calc(100% - 260px);
+		width: -moz-calc(100% - 260px);
+	}
+	.col2{
+		width: 250px;
+	}
 	.contact .hero .wrap {
 		height: 340px;
 	}

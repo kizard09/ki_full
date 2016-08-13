@@ -49,7 +49,7 @@
 	    bottom: auto;
 	}*/
 	
-	.secondary .right a, .secondary .button {
+	.secondary .right a{
 		font: bold 10px/37px 'futura-pt', verdana, sans-serif;
 		color: #999;
 		display: inline-block;
@@ -67,18 +67,7 @@
 	.secondary .button {
 		padding-right: 0;
 		margin-left: 25px;
-		margin-left: 5px;
-		width: 140px;
-		line-height: 37px;
-		border-color: #999;
-		cursor: pointer;
-		padding-left: 0
 	}
-	.secondary .button:hover {
-		border:1px solid #71b4d5;
-		color: #71b4d5;
-	}
-
 	.home.tablet img{
 		width: 150px;
 		position: absolute;
@@ -114,7 +103,7 @@
 		color: #71b4d5;
 	}
 	.r {
-		height: 210px;
+		height: 230px;
 		position: relative;
 	}
 	.r.scroll {

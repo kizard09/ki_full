@@ -32,27 +32,12 @@
 		background-color: #3F7398;
 		
 	}
-	.order {
-		display: block;
-		margin: 0 auto;
-		color: #61B5D7;
-		width: 180px;
-		border-style: none;
-		line-height: 4em;
-	}
-
-	.headline {
-		font-family:'futura-pt', serif;
-		font-size: 18px;
-		color: #B5D7DA;
-	}
-
+	
 	.earlyorder {
 		font-size: 16px;
 		color: #fff;
 		line-height: 20px;
 		padding-bottom: 3px;
-		margin: 15px;
 	}
 
 	.container-box {
@@ -68,7 +53,6 @@
 	.readersguide {
 		background-color: #BCD8D7;
 		height: 83px;
-		margin-top: 35px;
 
 }
 

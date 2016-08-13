@@ -11,6 +11,7 @@ Columnn Styles
 .col2 {
 	margin-top: 40px;
 	width: 100%;
+	padding:0 10px;
 }
 
 /* QUOTES COLUMN */
@@ -111,15 +112,13 @@ blockquote:before {
 
 .video {
 	position: relative;
-	width: calc(100% - 30px);
-	height: 175px;
-	margin: 15px;
-	
+	margin: 20px 0;
 }
 
 .videoimage {
 	display: block;
 	margin: 0 auto;
+	width: 100%;
 }
 
 .icon-container h6 {
@@ -140,19 +139,18 @@ blockquote:before {
 .readersguide {
 	position: relative;
 	background-color: #BCD8D7;
-	width: calc(100% - 30px);
 	height: 85px;
-	margin: 15px;
 }	
 
 .readersguide h6 {
 	line-height: 80px;
+	text-align: center;
 	color: #3F7398;
 }
 
 .icon-box {
 	text-align: center;
-	width: 50%px;
+	width: 50px;
 	height: 40px;
 }
 

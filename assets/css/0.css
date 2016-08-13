@@ -60,7 +60,10 @@ h2 {
 h3 {
 	font:28px 'futura-pt', verdana, sans-serif;
 	color: #487497;
-	text-align: center;
+}
+h4 {
+	font:18px 'futura-pt', verdana, sans-serif;
+	color: #bbd6d9;
 }
 h5 {
 	font:bold 20px 'futura-pt', verdana, sans-serif;
@@ -71,20 +74,16 @@ h6{
 	font: 700 12px/40px 'futura-pt', verdana, sans-serif;
 	color: #71b4d5;
 	letter-spacing: 2px;
-	
 	text-transform: uppercase;
 }
 p {
 	font:18px/24px 'adobe-caslon-pro', serif;
-	color: #fff;
+	color: #666;
 	padding: 7px 0;
 }
 a {
 	text-decoration: underline;
 	color: #487497
-}
-a:visited {
-	color:#487497
 }
 a:hover {
 	text-decoration: none;
@@ -99,6 +98,9 @@ ul li {
 	position: relative;
 	color: #666;
 }
+ul li span {
+	color:  #487497;
+}
 ul li:before {
 	content: "\2022";
 	display: block;
@@ -107,11 +109,16 @@ ul li:before {
 	color: #487497;
 }
 label {
-	font: 18px/23px 'adobe-caslon-pro', serif;
-    color: #71b4d5;
-    padding: 12px 0 0px;
-	width: 100%;
+	font: 700 10px 'futura-pt', verdana, sans-serif;
+	color: #999;
+	letter-spacing: 2px;
 	display: block;
+	text-transform: uppercase;
+	margin: 15px 0 5px;
+}
+form p {
+	font-size: 16px;
+	color: #999;
 }
 input[type='text'], input[type='email']{
 	font:16px/20px 'adobe-caslon-pro', serif;
@@ -122,6 +129,13 @@ input[type='text'], input[type='email']{
 	width: 100%;
 	border-radius: 3px;
 	display: block;
+	border:1px solid #ccc;
+	border-radius: 0;
+}
+textarea {
+	width:100%;
+	border:1px solid #ccc;
+	border-radius: 0;
 }
 .button {
 	width:140px;
@@ -131,15 +145,42 @@ input[type='text'], input[type='email']{
 	border-radius: 30px;
 	letter-spacing: 2px;
 	display: inline-block;
-	font: bold 14px/38px 'futura-pt', verdana, sans-serif;
+	font: bold 12px/38px 'futura-pt', verdana, sans-serif;
 	text-decoration: none;
 	text-align: center;
 	text-transform: uppercase;
 }
 .button:hover{
 	background: transparent;
-	border:1px solid #487497;
+	border:1px solid #71b4d5;
+	color:#71b4d5;
+}
+.button.lblue {
+	background: #71b4d5;
+	color:#fff;
+	border-color: #71b4d5;
+}
+.button.lblue:hover {
+	color:#71b4d5;
+	background: transparent;
+}
+.button.dblue {
+	background: #487497;
+	color:#fff;
+	border-color: #487497;
+}
+.button.dblue:hover {
 	color:#487497;
+	background: transparent;
+}
+.button.white {
+	background: transparent;
+	color:#fff;
+	border-color: #fff;
+}
+.button.white:hover {
+	color:transparent;
+	background: #fff;
 }
 nav {
 	background: #fff;
@@ -474,31 +515,31 @@ footer .primary a {
 	padding: 100px 0;
 }
 
-.book .right {
+.bluebox {
 	background: #487497;
-	padding: 45px;
+	padding: 25px;
 	float: none;
 }
-.book .right h3 {
+.bluebox p, .review p, .hero p {
+	color:#fff;
+}
+.bluebox h3 {
 	color: #bbd6d9;
 	text-align: left;
 	font-style: 24px;
 	font-weight: normal;
 }
+.thsh .bluebox h3{
+	font-size: 18px
+}
+.thsh .bluebox p{
+	font-size: 16px
+}
 .book h5 {
 	color: #71b4d5;
 	font-size:12px;
 }
-.book .button {
-	background: #71b4d5;
-	color: #fff;
-	border-color: #71b4d5;
-	font-size: 12px;
-}
-.book .button:hover {
-	background: transparent;
-	color:  #71b4d5;
-}
+
 .book .left {
 	background: #e6e4e0 url('../img/book-left.png') no-repeat;
 	background-size: cover;
@@ -674,12 +715,11 @@ footer .primary a {
 .news #mc_embed_signup .button{
 	width: 210px;
 	height: 50px;
-	letter-spacing: 1;
+	letter-spacing: 1px;
 	font-weight: bold;
 	margin-left: 0;
 }
 .news #mc_embed_signup .mc-field-group input{
-	
 	height: 50px;
 	padding:10px;
 	color:#999999;
@@ -724,8 +764,6 @@ footer .primary a {
 	display: inline-block;
 }
 .whisper .button {
-	color: #fff;
-	border-color: #fff;
 	text-align: center;
 	display: block;
     margin: 20px auto 0;

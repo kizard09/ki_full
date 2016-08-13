@@ -2,5 +2,11 @@
 
 	.thsh .hero .right {
      	margin-top: 30px; 
-}
+	}
+	.col1,
+	.col2 {
+
+		padding:0;
+	}
+
 }
