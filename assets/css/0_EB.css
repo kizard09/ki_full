@@ -177,35 +177,43 @@ blockquote:before {
 	width: 100%;
 	display: block;
 	margin: 0 auto;
+	margin-bottom: 15px;
 }
 
-.solomon-intro {
-	background-color: #3F7398;
-	box-sizing: border-box;
-	-webkit-box;
-	width: calc(100% - 30px);
-	width: -webkit-calc(100);
-	margin: 15px;
-
+.header-moore .bluebox {
+	width: 100%;
+	margin: 0 auto;
 }
 
-.container-moore {
-	margin: 25px;
-	text-align: left;
-	padding: 15px;
+.main-content {
+	padding-top: 25px;
 }
 
-.container-moore h6 {
-	line-height: 2px;
-    margin-bottom: 32px;
-    font: 12px 'futura-pt', verdana, sans-serif;
-    color: #9DCCE2;
-    font-weight: bold;
+.main-content p {
+	padding-right: 20px;
+	padding-bottom: 25px;
 }
 
-.container-moore .headline {
-	margin: 0;
+.img-with-text img {
+	width: 100%;
 }
+
+.img-with-text p {
+
+	font-size: 14px;
+	margin: 0 15px;
+}
+
+.about-moore h6 {
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+
+
+
+
 
 
 
