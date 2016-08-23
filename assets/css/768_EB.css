@@ -26,29 +26,23 @@
     	margin-top: 30px;
 }
 
-/* PRE-ORDER BOX */
+	/* PRE-ORDER BOX */
 
 	.pre-order {
 		background-color: #3F7398;
 		
 	}
 	
-	.earlyorder {
-		font-size: 16px;
-		color: #fff;
-		line-height: 20px;
-		padding-bottom: 3px;
-	}
 
 	.container-box {
 		text-align: left;
 	}
 
-/* AUTHOR VIDEO BOX */
+	/* AUTHOR VIDEO BOX */
 
 	
 
-/* READERS GUIDE */
+	/* READERS GUIDE */
 
 	.readersguide {
 		background-color: #BCD8D7;
@@ -68,6 +62,90 @@
 		bottom: 0.1px;
 	
 }
+
+/*************** 
+MOORE PLACE 
+****************/
+
+	.videoSol {
+		float: left;
+		width: 45%;
+	}
+
+	.header-moore .bluebox {
+		float: right;
+		width: 50%;
+		padding: 33px;
+	}
+
+	.main-content {
+		float: left;
+		width: 65%;
+	}
+
+	.img-with-text {
+		float: right;
+		width: 35%;
+		padding-top: 30px;
+	}
+
+	.about-moore {
+		padding-bottom: 110px;
+	}
+
+	.about-moore p {
+		text-align: left;
+
+		}
+
+	.about-moore::after {
+		content: url(../img/arrowright.png);
+		position: absolute;
+    	bottom: 83px;
+    	left: 50px;
+	}
+
+	.about-moore h6 {
+		text-align: left;
+	}
+
+
+	/* Quotes */
+
+	.moore-quotes .quote-block {
+		margin: 25px;
+		padding-top: 25px;
+	}
+
+	.moore-quotes {
+		padding-bottom: 130px;
+	}
+
+	.moore-carousel {
+		margin-left: -80px;
+		margin-right: -113px;
+	}
+
+	.moore-carousel .item  {
+		display: inline-block;
+
+	}
+
+	.item #slide-1,
+	.item #slide-9 {
+		width: 100%;
+	}
+
+
+}
+
+
+
+
+
+
+
+
 
 
 }
