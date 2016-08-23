@@ -89,6 +89,10 @@ MOORE PLACE
 		padding-top: 30px;
 	}
 
+	.about-moore {
+		padding-bottom: 110px;
+	}
+
 	.about-moore p {
 		text-align: left;
 
@@ -97,18 +101,43 @@ MOORE PLACE
 	.about-moore::after {
 		content: url(../img/arrowright.png);
 		position: absolute;
-    	bottom: -3px;
+    	bottom: 83px;
     	left: 50px;
 	}
 
 	.about-moore h6 {
 		text-align: left;
 	}
+
+
+	/* Quotes */
+
+	.moore-quotes .quote-block {
+		margin: 25px;
+		padding-top: 25px;
+	}
+
+	.moore-quotes {
+		padding-bottom: 130px;
+	}
+
+	.moore-carousel {
+		margin-left: -80px;
+		margin-right: -113px;
+	}
+
+	.moore-carousel .item  {
+		display: inline-block;
+
+	}
+
+	.item #slide-1,
+	.item #slide-9 {
+		width: 100%;
+	}
+
+
 }
-
-
-
-
 
 
 

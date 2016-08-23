@@ -210,8 +210,56 @@ blockquote:before {
 	width: 100%;
 }
 
+/* Owl Carousel */
 
+#group-one {
+  margin: 3px;
+}
+#group-one .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
 
+/* Quotes */
+
+.quote-block h6 {
+	margin-top: 15px;
+}
+
+.moore-quotes .quote-block {
+	text-align: center;
+	margin: 0 5px;
+}
+
+.moore-carousel .item {
+	position: relative;
+}
+.moore-carousel .hover {
+	position: absolute;
+	top: 0;
+	opacity: 0;
+}
+
+.moore-carousel .item:hover .hover {
+	opacity: 1;
+
+}
+
+.moore-carousel .item:hover img {
+	opacity: 0.4;
+}
+
+.moore-carousel .hover h3 {
+	padding: 35px;
+	color: #fff;
+}
+
+.moore-carousel .hover p {
+	font-size: 16px;
+    padding: 45px;
+    color: #fff;
+}
 
 
 
