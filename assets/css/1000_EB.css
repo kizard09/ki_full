@@ -25,4 +25,9 @@ MOORE PLACE
 		padding: 33px;
 	}
 
+	.moore-carousel {
+		margin-left: -80px;
+		margin-right: -113px;
+	}
+
 }

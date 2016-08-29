@@ -2,13 +2,13 @@
 
 	.col1 {
 		float: left;
-		width: 60%;
+		width: 55%;
 		padding-right: 40px;
 	}
 
 	.col2 {
 		float: right;
-		width: 40%;
+		width: 45%;
 	}
 
 	.col1,
@@ -122,21 +122,49 @@ MOORE PLACE
 	}
 
 	.moore-carousel {
-		margin-left: -80px;
-		margin-right: -113px;
+		margin-left: -25px;
+		margin-right: -31px;
 	}
 
 	.moore-carousel .item  {
 		display: inline-block;
-
+		float: left;
+		width: 33%;
 	}
 
 	.item #slide-1,
+	.item #slide-2,
+	.item #slide-3,
+	.item #slide-4,
+	.item #slide-5,
+	.item #slide-6,
+	.item #slide-7,
+	.item #slide-8,
 	.item #slide-9 {
 		width: 100%;
 	}
 
+	.resources .col1 {
+		width: calc(100% - 270px);
+		width: -webkit-calc(100% - 270px);
+		width: -moz-calc(100% - 270px);
+	}
 
+	.resources .col2 {
+		width: 270px;
+	}
+
+	.mobile {
+		display: none;
+	}
+
+	.jumbo-tron {
+		min-height: 470px;
+	}
+
+	.jumbo-tron h1 {
+		padding: 35px;
+	}
 }
 
 
