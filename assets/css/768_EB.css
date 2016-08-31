@@ -69,13 +69,15 @@ MOORE PLACE
 
 	.videoSol {
 		float: left;
-		width: 45%;
+		width: 50%;
 	}
 
 	.header-moore .bluebox {
 		float: right;
+		height: 310px;
 		width: 50%;
 		padding: 33px;
+		line-height: 5;
 	}
 
 	.main-content {
@@ -90,7 +92,7 @@ MOORE PLACE
 	}
 
 	.about-moore {
-		padding-bottom: 110px;
+		padding-bottom: 70px;
 	}
 
 	.about-moore p {
@@ -101,7 +103,7 @@ MOORE PLACE
 	.about-moore::after {
 		content: url(../img/arrowright.png);
 		position: absolute;
-    	bottom: 83px;
+    	bottom: 44px;
     	left: 50px;
 	}
 
@@ -109,6 +111,82 @@ MOORE PLACE
 		text-align: left;
 	}
 
+
+	#slide-1
+	#slide-2
+	#slide-3
+	#slide-4
+	#slide-5
+	#slide-6
+	#slide-7
+	#slide-8
+	#slide-9 {
+		width: 100%;
+	}
+
+	#slide-1 {
+		margin-left: 32px;
+    	margin-top: -94px;
+	}
+
+	.moore-carousel .slide-1 h3 {
+		padding-left: 52px;
+		margin: 0 25px;
+	}
+
+	.moore-carousel .slide-1 p {
+		margin-left: 78px;
+	}
+
+	#slide-2 {
+		margin-left: 236px;
+		margin-top: -30px;
+	}
+
+	.moore-carousel .slide-2 h3 {
+		width: 250px;
+		margin: 0 0 0 273px;
+
+	}
+
+	.moore-carousel .slide-2 p {
+		margin-left: 268px;
+	}
+
+	#slide-3 {
+		margin-top: 213px;
+		margin-left: -448px;
+	}
+
+
+	.moore-carousel .slide-3 h3 {
+		padding-top: 56px;
+		margin-left: -402px;
+		margin-top: 175px;
+
+	}
+
+	.moore-carousel .slide-3 p {
+		margin-left: -402px;
+		padding-right: 380px;
+		margin-top: 51px;
+	}
+
+	#slide-4 {
+		margin-left: 92px;
+    	margin-top: -51px;
+	}
+
+	#slide-5 {
+		margin-left: 192px;
+		margin-top: 5px;
+	}
+
+	#slide-6 {
+		height: 253px;
+    	margin-top: 229px;
+		margin-left: -447px;
+	}
 
 	/* Quotes */
 
@@ -121,10 +199,6 @@ MOORE PLACE
 		padding-bottom: 130px;
 	}
 
-	.moore-carousel {
-		margin-left: -25px;
-		margin-right: -31px;
-	}
 
 	.moore-carousel .item  {
 		display: inline-block;
@@ -132,17 +206,12 @@ MOORE PLACE
 		width: 33%;
 	}
 
-	.item #slide-1,
-	.item #slide-2,
-	.item #slide-3,
-	.item #slide-4,
-	.item #slide-5,
-	.item #slide-6,
-	.item #slide-7,
-	.item #slide-8,
-	.item #slide-9 {
-		width: 100%;
-	}
+
+
+/*************** 
+ABOUT YOU
+****************/
+
 
 	.resources .col1 {
 		width: calc(100% - 270px);
@@ -154,10 +223,6 @@ MOORE PLACE
 		width: 270px;
 	}
 
-	.mobile {
-		display: none;
-	}
-
 	.jumbo-tron {
 		min-height: 470px;
 	}
@@ -165,15 +230,8 @@ MOORE PLACE
 	.jumbo-tron h1 {
 		padding: 35px;
 	}
-}
-
-
-
-
-
-
-
-
-
 
 }
+
+
+
