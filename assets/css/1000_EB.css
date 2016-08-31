@@ -9,4 +9,20 @@
 		padding:0;
 	}
 
+
+/*************** 
+MOORE PLACE 
+****************/
+
+	.videoSol {
+		float: left;
+		width: %;
+	}
+
+	.header-moore .bluebox {
+		float: right;
+		width: 50%;
+		padding: 33px;
+	}
+
 }

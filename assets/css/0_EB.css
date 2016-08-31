@@ -132,7 +132,7 @@ blockquote:before {
 }
 
 
-
+/*test*/
 
 /* READERS GUIDE */
 
@@ -177,35 +177,91 @@ blockquote:before {
 	width: 100%;
 	display: block;
 	margin: 0 auto;
+	margin-bottom: 15px;
 }
 
-.solomon-intro {
-	background-color: #3F7398;
-	box-sizing: border-box;
-	-webkit-box;
-	width: calc(100% - 30px);
-	width: -webkit-calc(100);
-	margin: 15px;
+.header-moore .bluebox {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.main-content {
+	padding-top: 25px;
+}
+
+.main-content p {
+	padding-right: 20px;
+	padding-bottom: 25px;
+}
+
+.img-with-text img {
+	width: 100%;
+}
+
+.img-with-text p {
+
+	font-size: 14px;
+	margin: 0 15px;
+}
+
+.about-moore h6 {
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+/* Owl Carousel */
+
+#group-one {
+  margin: 3px;
+}
+#group-one .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+/* Quotes */
+
+.quote-block h6 {
+	margin-top: 15px;
+}
+
+.moore-quotes .quote-block {
+	text-align: center;
+	margin: 0 5px;
+}
+
+.moore-carousel .item {
+	position: relative;
+}
+.moore-carousel .hover {
+	position: absolute;
+	top: 0;
+	opacity: 0;
+}
+
+.moore-carousel .item:hover .hover {
+	opacity: 1;
 
 }
 
-.container-moore {
-	margin: 25px;
-	text-align: left;
-	padding: 15px;
+.moore-carousel .item:hover img {
+	opacity: 0.4;
 }
 
-.container-moore h6 {
-	line-height: 2px;
-    margin-bottom: 32px;
-    font: 12px 'futura-pt', verdana, sans-serif;
-    color: #9DCCE2;
-    font-weight: bold;
+.moore-carousel .hover h3 {
+	padding: 35px;
+	color: #fff;
 }
 
-.container-moore .headline {
-	margin: 0;
+.moore-carousel .hover p {
+	font-size: 16px;
+    padding: 45px;
+    color: #fff;
 }
+
+
 
 
 
