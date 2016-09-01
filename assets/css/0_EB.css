@@ -136,7 +136,7 @@ blockquote:before {
 
 /* READERS GUIDE */
 
-.readersguide {
+.lgt-blue-box {
 	position: relative;
 	background-color: #BCD8D7;
 	height: 85px;
@@ -180,6 +180,10 @@ blockquote:before {
 	margin-bottom: 15px;
 }
 
+.solomon-video {
+	 margin-top: 60px;
+}
+
 .header-moore .bluebox {
 	width: 100%;
 	margin: 0 auto;
@@ -210,7 +214,16 @@ blockquote:before {
 	width: 100%;
 }
 
+.about-moore a {
+		text-decoration: none;
+	}
+
+.moore-background {
+	background: url(../img/BKGND.png);
+}
+
 /* Owl Carousel */
+
 
 #group-one {
   margin: 3px;
@@ -218,8 +231,9 @@ blockquote:before {
 #group-one .item img{
   display: block;
   width: 100%;
-  height: auto;
+  max-height: 333px;
 }
+
 
 /* Quotes */
 
@@ -229,7 +243,7 @@ blockquote:before {
 
 .moore-quotes .quote-block {
 	text-align: center;
-	margin: 0 5px;
+	margin: 52px 25px;
 }
 
 .moore-carousel .item {
@@ -251,19 +265,138 @@ blockquote:before {
 }
 
 .moore-carousel .hover h3 {
-	padding: 35px;
-	color: #fff;
+	margin: 25px;
+	padding: 6px;
 }
 
 .moore-carousel .hover p {
-	font-size: 16px;
-    padding: 45px;
-    color: #fff;
+	font-size: 17px;
+	margin: 25px;
+	padding: 6px;
+}
+
+.moore-carousel .owl-dots{
+	position: absolute;
+	width: 30px;
+	left:0;
+	right:0;
+	margin:auto;
+}
+
+.moore-carousel .owl-dots .owl-dot span {
+	height: 10px;
+	width: 10px;
+	display: inline-block;
+	border:1px solid #575757;
+	border-radius: 50%;
+	margin-bottom: 5px;
+}
+
+.moore-carousel .owl-dots .owl-dot.active span {
+	background: #575757;
+}
+
+.owl-dot {
+	display: inline-block;
 }
 
 
+/*******************
+	ABOUT YOU
+********************/
+
+.resources li {
+	font:18px/24px 'adobe-caslon-pro', serif;
+	color: #487497;
+	padding: 7px 0;
+	line-height: 30px;
+}
+
+.about-you-header {
+	width: 100%;
+}
+
+.jumbo-tron .lblue {
+	margin-bottom: 11px;
+}
+
+.lgt-blue-box h6 {
+	line-height: 80px;
+	text-align: center;
+	color: #3F7398;
+}
+
+.lgt-blue-box::before {
+	content: url(../img/jumpstart_logo.png);
+	position: absolute;
+	bottom: 24px;
+    left: 26px;
+}
+
+.lgt-blue-box::after {
+	content: url(../img/arrowright.png);
+	position: absolute;
+	bottom: -1.9px;
+    right: -11px;
+}
+.col2 .bluebox {
+	margin-top: 25px;
+}
+
+.jumbo-tron {
+	text-align: center;
+	background: url(../img/aboutYouHeader.png) no-repeat top center;
+	background-size: cover;
+	overflow: hidden;
+	padding-top: 60px;
+}
+
+.about-you-portrait {
+	text-align: center;
+	background: url(../img/AboutYou-portrait.png) no-repeat top center;
+	background-size: cover;
+
+}
+
+.image-content {
+
+  height: 400px;
+  display: -webkit-flex;
+  display:         flex;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+
+}
+
+.image-share-text {
+	width: 150px;
+}
+
+.image-share-text h3 {
+	margin-left: 15px;
+	font-size: 12px;
+	color: #fff;
+	padding-bottom: 10px;
+
+}
 
 
+.image-share-text .sm-button {
+    width: 50px;
+    height: 20px;
+	color: #fff;
+	margin-left: 14px;
+	border:1px solid #fff;
+	border-radius: 30px;
+	letter-spacing: 2px;
+	display: inline-block;
+	font: bold 8px/20px 'futura-pt', verdana, sans-serif;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+}
 
 
 
