@@ -39,16 +39,18 @@
 MOORE PLACE 
 ****************/
 
-	.videoSol {
+	.solomon-video {
 		float: left;
 		width: 50%;
 	}
 
 	.header-moore .bluebox {
-		float: right;
-		height:326px;
-		width: 50%;
-		padding: 33px;
+	    float: right;
+	    height: 336px;
+	    width: 50%;
+	    padding: 33px;
+	    margin-top: 63px;
+	    margin-right: -20px;
 	}
 
 	.quote-block h3 {
@@ -210,12 +212,16 @@ MOORE PLACE
 ABOUT YOU 
 ****************/
 
+	.box-model {
+		padding-bottom: 132px;
+	}
+
 	.box-model .col1 {
 		padding-left: 142px;
 	}
 
 	.image-share-text h3 {
-		margin: -7px 63px 14px -72px;
+		margin: -39px 27px 14px -72px;
 	    font-size: 18px;
 	    color: #fff;
 	    padding-bottom: 10px;
@@ -226,7 +232,7 @@ ABOUT YOU
 		   width: 85px;
 		   height: 32px;
 		   color: #fff;
-		   margin: 0px 73px 45px -68px;
+		   margin: 0px 32px 45px -68px;
 		   border: 1px solid #fff;
 		   border-radius: 30px;
 		   letter-spacing: 2px;
@@ -258,7 +264,13 @@ ABOUT YOU
 	    text-align: left;
 	}
 
+	.about-you-boxes .lgt-blue-box,
+	.about-you-boxes .bluebox {
+		margin-left: -26px;
+
+	}
+
 	.about-you-boxes {
-		margin: -53px 300px 0 117px;
+		margin: -52px 90px 0 200px;
 	}
 }

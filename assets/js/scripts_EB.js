@@ -21,10 +21,7 @@ $(function(){
 
 // FancyBox iFrame
 
-	$(document).ready(function() {
-		$(".fancybox").fancybox();
-	
-	});	
+	$(".fancybox").fancybox();
 
 	
 });
