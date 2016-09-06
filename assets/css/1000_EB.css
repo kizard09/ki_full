@@ -258,8 +258,7 @@ ABOUT YOU
 	    text-align: left;
 	}
 
-	.about-you-boxes .bluebox{
-		margin-right: 300px;
-    	margin-left: 123px;
+	.about-you-boxes {
+		margin: -53px 300px 0 117px;
 	}
 }

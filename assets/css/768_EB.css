@@ -334,6 +334,12 @@ ABOUT YOU
 	    padding-top: 40px;
 	    line-height: 1;
 	    text-align: left;
+	}
+
+	.about-you-boxes {
+		width: 250px;
+		margin-left: 0px;
+	}
 
 }
 
