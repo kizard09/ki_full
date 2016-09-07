@@ -111,6 +111,22 @@ MOORE PLACE
 
 	}
 
+	.solomon-video {
+		float: left;
+		width: 50%;
+	}
+
+	.header-moore .bluebox {
+		float: right;
+		width: 50%;
+		margin-top: 60px;
+
+	}
+
+	.solomon-video img {
+		width: 100%;
+	}
+
 
 
 

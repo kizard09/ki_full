@@ -44,6 +44,10 @@ MOORE PLACE
 		width: 50%;
 	}
 
+	.solomon-video img {
+		width: initial;
+	}
+
 	.header-moore .bluebox {
 	    float: right;
 	    height: 336px;
